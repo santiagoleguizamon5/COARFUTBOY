@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio de Árbitros de Boyacá</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            background: url('img/fondo.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+
+	nav a {
+    		display: inline-block;
+    		background: linear-gradient(45deg, #FFD700, #FFA500);
+    		color: black;
+    		margin: 10px;
+    		padding: 14px 30px;
+    		text-decoration: none;
+    		font-weight: bold;
+    		border-radius: 30px;
+    		transition: all 0.3s ease;
+    		font-size: 1.1em;
+    		box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+		}
+
+	nav a:hover {
+   	 	background: linear-gradient(45deg, #FFA500, #FF4500);
+    		color: white;
+    		transform: scale(1.15);
+    		box-shadow: 0 8px 20px rgba(255,140,0,0.6);
+		}
+        section {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: rgba(0,0,0,0.35);
+            font-size: 1.3em;
+        }
+        section h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px black;
+        }
+        /* Estilo galería */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: 0.3s;
+            border: 3px solid white;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            border-color: orange;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0,0,0,0.8);
+            font-size: 1em;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .portada {
+            max-width: 100%;
+            width: 800px;
+            border-radius: 20px;
+            border: 5px solid white;
+            margin: 30px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Colegio de Árbitros de Boyacá</h1>
+        <nav>
+    		<a href="index.html">Inicio</a>
+    		<a href="nosotros.html">Nosotros</a>
+    		<a href="galeria.html">Galería</a>
+    		<a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Disciplina, Autocontrol y Amor por lo que hacemos</h2>
+        <p>Bienvenidos al sitio oficial de COARFUTBOY</p>
+        <img src="img/Portada.png" alt="Portada del sitio" class="portada">
+    </section>
+
+    <section id="nosotros">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Somos el Colegio de Árbitros de Boyacá, comprometidos con la formación, la disciplina 
+        y la excelencia en el arbitraje del fútbol colombiano.</p>
+    </section>
+
+
+ <section>
+        <h2>¿Quiénes Somos?</h2>
+        <p>Somos el Colegio de Árbitros de Boyacá, comprometidos con la formación, 
+        disciplina y excelencia en el arbitraje del fútbol colombiano.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: contacto@coarfutboy.com</p>
+        <p>Teléfono: +57 320 000 0000</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Colegio de Árbitros de Boyacá - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
+
